@@ -11,6 +11,7 @@ function cashOut( money ) {
         return charge;
     }
 }
-console.log(cashOut(200));
+
+
 
 
