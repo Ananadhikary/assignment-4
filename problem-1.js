@@ -4,14 +4,10 @@ function cashOut( money ) {
         return 'invalid';
     }
     else if(money < 0){
-        return 'invalid';
+        return 'Invalid';
     }
     else{
         const charge = money*1.75/100;
         return charge;
     }
 }
-
-
-
-
