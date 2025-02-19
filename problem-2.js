@@ -19,4 +19,3 @@ function  validEmail( email ) {
         return true;
     }
 }
-
